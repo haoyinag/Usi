@@ -1,15 +1,15 @@
 export default {
-  '/blog': [
+  '/基础': [
+    {
+      title: '基础',
+    },
     {
       title: '简介',
+      children: ['index'],
     },
     {
-      title: '辟邪剑谱',
-      children: ['blog/test'],
-    },
-    {
-      title: '降龙十八掌',
-      children: ['blog/test2'],
+      title: '基础',
+      children: ['Basic/index'],
     },
   ],
 };
