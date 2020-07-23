@@ -19,6 +19,10 @@ export default defineConfig({
       title: 'GitHub',
       path: 'https://github.com/haoyinag/AngsiUUI',
     },
+    {
+      title: '简书',
+      path: 'https://www.jianshu.com/u/c53f3aed0c06',
+    },
   ],
   // routes,
   //  {
