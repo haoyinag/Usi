@@ -1,22 +1,22 @@
 export default {
-  '/basic': [
+  '/Utils': [
     {
       title: 'Utils',
       children: [
-        'Basic/type',
-        'Basic/pattern',
-        'Basic/navigator',
-        'Basic/numberoperate',
-        'Basic/stringoperate',
-        'Basic/objectoperate',
-        'Basic/domoperate',
-        'Basic/files',
-        'Basic/algorithm',
+        'Utils/type',
+        'Utils/pattern',
+        'Utils/navigator',
+        'Utils/numberoperate',
+        'Utils/stringoperate',
+        'Utils/objectoperate',
+        'Utils/domoperate',
+        'Utils/files',
+        'Utils/algorithm',
       ],
     },
     // {
     //   title: '文件处理',
-    //   children: ['Basic/files'],
+    //   children: ['Utils/files'],
     // },
   ],
 };
