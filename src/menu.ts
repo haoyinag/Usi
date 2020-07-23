@@ -19,4 +19,14 @@ export default {
     //   children: ['Utils/files'],
     // },
   ],
+  '/Hooks': [
+    {
+      title: 'Hooks',
+      children: ['Hooks/ReactHooks'],
+    },
+    // {
+    //   title: '文件处理',
+    //   children: ['Utils/files'],
+    // },
+  ],
 };
