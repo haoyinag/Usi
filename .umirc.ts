@@ -14,7 +14,23 @@ export default defineConfig({
 
   menus,
   navs: [
-    null, // null 值代表保留约定式生成的导航，只做增量配置
+    // null, // null 值代表保留约定式生成的导航，只做增量配置
+    {
+      title: 'Hooks',
+      path: '/hooks',
+    },
+    {
+      title: 'Utils',
+      path: '/utils',
+    },
+    {
+      title: '请求',
+      path: '/services',
+    },
+    {
+      title: '组件',
+      path: '/components',
+    },
     {
       title: 'GitHub',
       path: 'https://github.com/haoyinag/AngsiUUI',
