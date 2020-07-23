@@ -24,7 +24,7 @@ export default {
   '/Services': [
     {
       title: 'Services',
-      children: ['Services/umirequest'],
+      children: ['Services/umirequest', 'Services/flyio'],
     },
   ],
 };
