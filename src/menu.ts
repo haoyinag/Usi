@@ -18,7 +18,7 @@ export default {
   '/Hooks': [
     {
       title: 'Hooks',
-      children: ['Hooks/useClock'],
+      children: ['Hooks/useClock', 'Hooks/useChecked', 'Hooks/useDoubleClick'],
     },
   ],
   '/Services': [
