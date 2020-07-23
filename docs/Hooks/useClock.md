@@ -1,5 +1,9 @@
 # useClock
 
+时钟逻辑抽离，返回一个当前的 时/分/秒 对象
+
+## 代码
+
 ```ts
 import { useEffect, useReducer } from 'react';
 
@@ -32,20 +36,6 @@ function reducer(state: State, action: Action) {
   }
 }
 
-/**
- * 时钟逻辑抽离
- * 返回一个当前的 时/分/秒 对象
- * demo：
-    const [flag, setFlag] = useState<boolean>(false)
-    const { hour, minute, second } = useClock();
-    useEffect(() => {
-        if (!flag) {
-            setTimeout(() => {
-                console.log(hour, minute, second);
-            }, 1000);
-        }
-    });
- */
 export function useClock() {
   const [state, dispatch] = useReducer(reducer, getState());
   useEffect(() => {
@@ -60,4 +50,18 @@ export function useClock() {
   }, []);
   return state;
 }
+```
+
+## Demo
+
+```ts
+const [flag, setFlag] = useState<boolean>(false);
+const { hour, minute, second } = useClock();
+useEffect(() => {
+  if (!flag) {
+    setTimeout(() => {
+      console.log(hour, minute, second);
+    }, 1000);
+  }
+});
 ```
