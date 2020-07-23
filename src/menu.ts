@@ -14,19 +14,17 @@ export default {
         'Utils/algorithm',
       ],
     },
-    // {
-    //   title: '文件处理',
-    //   children: ['Utils/files'],
-    // },
   ],
   '/Hooks': [
     {
       title: 'Hooks',
       children: ['Hooks/useClock'],
     },
-    // {
-    //   title: '文件处理',
-    //   children: ['Utils/files'],
-    // },
+  ],
+  '/Services': [
+    {
+      title: 'Services',
+      children: ['Services/umirequest'],
+    },
   ],
 };
