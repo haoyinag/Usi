@@ -1,5 +1,3 @@
-# Angsi UUI
-
 Angsi Utils & UI
 
 ## Getting Started
