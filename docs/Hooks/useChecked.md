@@ -1,13 +1,28 @@
 # useChecked
 
+把多选列表的单选、勾选、反勾选逻辑抽离
+
+## 代码
+
 ```ts
-/**
- * 自定义hooks
- * 把单选、勾选、反勾选逻辑抽离
- */
 import { useReducer } from 'react';
-import { CheckItemType, ActionType } from './hook_types';
-import { CHECKED_CHANGE, CHECKED_ALL_CHANGE } from './hook_constant';
+
+const CHECKED_CHANGE = 'CHECKED_CHANGE'; // 单选
+const CHECKED_ALL_CHANGE = 'CHECKED_ALL_CHANGE'; // 全选/反选
+
+interface CheckItemType {
+  id: number;
+  price: number;
+  checked: boolean;
+}
+
+interface ActionType {
+  type: 'CHECKED_CHANGE' | 'CHECKED_ALL_CHANGE';
+  payload: {
+    id?: number;
+    checked: boolean;
+  };
+}
 
 function reducer(state: CheckItemType[], action: ActionType) {
   const { type, payload } = action;
@@ -41,6 +56,14 @@ export const useChecked = (list: CheckItemType[]) => {
   } else {
     checkedAll = false;
   }
-  return { checkedAll, newCheckedList, dispatch };
+  return [newCheckedList, checkedAll, dispatch];
 };
+```
+
+## Demo
+
+```ts
+const [newCheckedList, checkedAll, dispatchChecked] = useChecked(
+  initList || [],
+);
 ```
