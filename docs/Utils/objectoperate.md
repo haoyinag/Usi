@@ -1,6 +1,6 @@
-### 复杂类型操作
+# 复杂类型操作
 
-#### 数组排序，{type} 1：从小到大 2：从大到小 3：随机
+### 数组排序，{type} 1：从小到大 2：从大到小 3：随机
 
 ```ts
 export const sort = (arr, type = 1) => {
@@ -19,7 +19,7 @@ export const sort = (arr, type = 1) => {
 };
 ```
 
-#### 去重
+### 去重
 
 ```ts
 export const unique = arr => {
@@ -39,7 +39,7 @@ export const unique = arr => {
 };
 ```
 
-#### 求两个集合的并集
+### 求两个集合的并集
 
 ```ts
 export const union = (a, b) => {
@@ -48,7 +48,7 @@ export const union = (a, b) => {
 };
 ```
 
-#### 求两个集合的交集
+### 求两个集合的交集
 
 ```ts
 export const intersect = (a, b) => {
@@ -60,7 +60,7 @@ export const intersect = (a, b) => {
 };
 ```
 
-#### 删除其中一个元素
+### 删除其中一个元素
 
 ```ts
 export const remove = (arr, ele) => {
@@ -72,7 +72,7 @@ export const remove = (arr, ele) => {
 };
 ```
 
-#### 将类数组转换为数组
+### 将类数组转换为数组
 
 ```ts
 export const formArray = ary => {
@@ -86,7 +86,7 @@ export const formArray = ary => {
 };
 ```
 
-#### 求和
+### 求和
 
 ```ts
 export const sum = arr => {
@@ -96,7 +96,7 @@ export const sum = arr => {
 };
 ```
 
-#### 平均值
+### 平均值
 
 ```ts
 export const average = arr => {
@@ -104,7 +104,7 @@ export const average = arr => {
 };
 ```
 
-#### 判断两个对象是否键值相同
+### 判断两个对象是否键值相同
 
 ```ts
 export const isObjectEqual = (a, b) => {
@@ -126,7 +126,7 @@ export const isObjectEqual = (a, b) => {
 };
 ```
 
-#### 十六进制颜色转 RGBA 字符串
+### 十六进制颜色转 RGBA 字符串
 
 ```ts
 export const colorToRGB = (val, opa) => {

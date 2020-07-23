@@ -1,6 +1,6 @@
-### 字符串操作
+# 字符串操作
 
-#### 去除空格,type: 1-所有空格 2-前后空格 3-前空格 4-后空格
+### 去除空格,type: 1-所有空格 2-前后空格 3-前空格 4-后空格
 
 ```ts
 export const trim = (str, type) => {
@@ -20,7 +20,7 @@ export const trim = (str, type) => {
 };
 ```
 
-#### 字符转换，type: 1:首字母大写 2：首字母小写 3：大小写转换 4：全部大写 5：全部小写
+### 字符转换，type: 1:首字母大写 2：首字母小写 3：大小写转换 4：全部大写 5：全部小写
 
 ```ts
 export const changeCase = (str, type) => {
@@ -59,7 +59,7 @@ export const changeCase = (str, type) => {
 };
 ```
 
-#### 在字符串中插入新字符串
+### 在字符串中插入新字符串
 
 ```ts
 export const insertStr = (soure, index, newStr) => {

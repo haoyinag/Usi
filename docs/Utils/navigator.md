@@ -1,6 +1,6 @@
-### 端丨判断
+# 端丨判断
 
-#### 是否是微信浏览器
+### 是否是微信浏览器
 
 ```ts
 export const ua = navigator.userAgent.toLowerCase();
@@ -9,7 +9,7 @@ export const isWeiXin = () => {
 };
 ```
 
-#### 是否是移动端
+### 是否是移动端
 
 ```ts
 export const isDeviceMobile = () => {
@@ -17,7 +17,7 @@ export const isDeviceMobile = () => {
 };
 ```
 
-#### 是否是 QQ 浏览器
+### 是否是 QQ 浏览器
 
 ```ts
 export const isQQBrowser = () => {
@@ -25,7 +25,7 @@ export const isQQBrowser = () => {
 };
 ```
 
-#### 是否是爬虫
+### 是否是爬虫
 
 ```ts
 export const isSpider = () => {
@@ -35,7 +35,7 @@ export const isSpider = () => {
 };
 ```
 
-#### 是否 ios
+### 是否 ios
 
 ```ts
 export const isIos = () => {
@@ -58,7 +58,7 @@ export const isIos = () => {
 };
 ```
 
-#### 是否为 PC 端
+### 是否为 PC 端
 
 ```ts
 export const isPC = () => {

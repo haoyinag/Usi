@@ -1,6 +1,6 @@
-### 数字操作
+# 数字操作
 
-#### 随机数范围
+### 随机数范围
 
 ```ts
 export const random = (min, max) => {
@@ -12,7 +12,7 @@ export const random = (min, max) => {
 };
 ```
 
-#### 将阿拉伯数字翻译成中文的大写数字
+### 将阿拉伯数字翻译成中文的大写数字
 
 ```ts
 export const numberToChinese = num => {
@@ -65,7 +65,7 @@ export const numberToChinese = num => {
 };
 ```
 
-#### 将数字转换为大写金额
+### 将数字转换为大写金额
 
 ```ts
 export const changeToChinese = Num => {

@@ -1,6 +1,6 @@
-### 页面操作
+# 页面操作
 
-#### 去除 html 标签
+### 去除 html 标签
 
 ```ts
 export const removeHtmltag = str => {
@@ -8,7 +8,7 @@ export const removeHtmltag = str => {
 };
 ```
 
-#### 获取 url 参数
+### 获取 url 参数
 
 ```ts
 export const getQueryString = name => {
@@ -19,7 +19,7 @@ export const getQueryString = name => {
 };
 ```
 
-#### 追加 url 参数
+### 追加 url 参数
 
 ```ts
 export const appendQuery = (url, key, value) => {
@@ -38,7 +38,7 @@ export const appendQuery = (url, key, value) => {
 };
 ```
 
-#### 动态引入 js
+### 动态引入 js
 
 ```ts
 export const injectScript = src => {
@@ -51,7 +51,7 @@ export const injectScript = src => {
 };
 ```
 
-#### 根据 url 地址下载
+### 根据 url 地址下载
 
 ```ts
 export const download = url => {
@@ -79,7 +79,7 @@ export const download = url => {
 };
 ```
 
-#### el 是否包含某个 class
+### el 是否包含某个 class
 
 ```ts
 export const hasClass = (el, className) => {
@@ -88,7 +88,7 @@ export const hasClass = (el, className) => {
 };
 ```
 
-#### el 添加某个 class
+### el 添加某个 class
 
 ```ts
 export const addClass = (el, className) => {
@@ -101,7 +101,7 @@ export const addClass = (el, className) => {
 };
 ```
 
-#### el 去除某个 class
+### el 去除某个 class
 
 ```ts
 export const removeClass = (el, className) => {
@@ -113,7 +113,7 @@ export const removeClass = (el, className) => {
 };
 ```
 
-#### 获取滚动的坐标
+### 获取滚动的坐标
 
 ```ts
 export const getScrollPosition = (el = window) => ({
@@ -122,7 +122,7 @@ export const getScrollPosition = (el = window) => ({
 });
 ```
 
-#### 滚动到顶部
+### 滚动到顶部
 
 ```ts
 export const scrollToTop = () => {
@@ -134,7 +134,7 @@ export const scrollToTop = () => {
 };
 ```
 
-#### el 是否在视口范围内
+### el 是否在视口范围内
 
 ```ts
 export const elementIsVisibleInViewport = (el, partiallyVisible = false) => {
@@ -148,7 +148,7 @@ export const elementIsVisibleInViewport = (el, partiallyVisible = false) => {
 };
 ```
 
-#### 拦截粘贴板
+### 拦截粘贴板
 
 ```ts
 export const copyTextToClipboard = value => {

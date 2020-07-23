@@ -1,6 +1,6 @@
-### 值类型
+# 值类型
 
-#### 邮箱
+### 邮箱
 
 ```ts
 const isEmail = (s: string) => {
@@ -10,7 +10,7 @@ const isEmail = (s: string) => {
 };
 ```
 
-#### 手机号码
+### 手机号码
 
 ```ts
 export const isMobile = s => {
@@ -18,7 +18,7 @@ export const isMobile = s => {
 };
 ```
 
-#### 电话号码
+### 电话号码
 
 ```ts
 export const isPhone = s => {
@@ -26,7 +26,7 @@ export const isPhone = s => {
 };
 ```
 
-#### 是否 url 地址
+### 是否 url 地址
 
 ```ts
 export const isURL = s => {
@@ -34,7 +34,7 @@ export const isURL = s => {
 };
 ```
 
-#### 是否字符串
+### 是否字符串
 
 ```ts
 export const isString = o => {
@@ -42,7 +42,7 @@ export const isString = o => {
 };
 ```
 
-#### 是否数字
+### 是否数字
 
 ```ts
 export const isNumber = o => {
@@ -50,7 +50,7 @@ export const isNumber = o => {
 };
 ```
 
-#### 是否 boolean
+### 是否 boolean
 
 ```ts
 export const isBoolean = o => {
@@ -58,7 +58,7 @@ export const isBoolean = o => {
 };
 ```
 
-#### 是否函数
+### 是否函数
 
 ```ts
 export const isFunction = o => {
@@ -66,7 +66,7 @@ export const isFunction = o => {
 };
 ```
 
-#### 是否为 null
+### 是否为 null
 
 ```ts
 export const isNull = o => {
@@ -74,7 +74,7 @@ export const isNull = o => {
 };
 ```
 
-#### 是否 undefined
+### 是否 undefined
 
 ```ts
 export const isUndefined = o => {
@@ -82,7 +82,7 @@ export const isUndefined = o => {
 };
 ```
 
-#### 是否对象
+### 是否对象
 
 ```ts
 export const isObj = o => {
@@ -90,7 +90,7 @@ export const isObj = o => {
 };
 ```
 
-#### 是否数组
+### 是否数组
 
 ```ts
 export const isArray = o => {
@@ -98,7 +98,7 @@ export const isArray = o => {
 };
 ```
 
-#### 是否时间
+### 是否时间
 
 ```ts
 export const isDate = o => {
@@ -106,7 +106,7 @@ export const isDate = o => {
 };
 ```
 
-#### 是否正则
+### 是否正则
 
 ```ts
 export const isRegExp = o => {
@@ -114,7 +114,7 @@ export const isRegExp = o => {
 };
 ```
 
-#### 是否错误对象
+### 是否错误对象
 
 ```ts
 export const isError = o => {
@@ -122,7 +122,7 @@ export const isError = o => {
 };
 ```
 
-#### 是否 Symbol 函数
+### 是否 Symbol 函数
 
 ```ts
 export const isSymbol = o => {
@@ -130,7 +130,7 @@ export const isSymbol = o => {
 };
 ```
 
-#### 是否 Promise 对象
+### 是否 Promise 对象
 
 ```ts
 export const isPromise = o => {
@@ -138,7 +138,7 @@ export const isPromise = o => {
 };
 ```
 
-#### 是否 Set 对象
+### 是否 Set 对象
 
 ```ts
 export const isSet = o => {
@@ -146,7 +146,7 @@ export const isSet = o => {
 };
 ```
 
-#### 检测密码强度
+### 检测密码强度
 
 ```ts
 export const checkPwd = str => {
@@ -170,7 +170,7 @@ export const checkPwd = str => {
 };
 ```
 
-#### 判断类型集合
+### 判断类型集合
 
 ```ts
 export const checkStr = (str, type) => {
@@ -223,7 +223,7 @@ export const checkStr = (str, type) => {
 };
 ```
 
-#### 严格的身份证校验
+### 严格的身份证校验
 
 ```ts
 export const isCardID = sId => {
@@ -308,7 +308,7 @@ export const isCardID = sId => {
 };
 ```
 
-#### 函数节流器
+### 函数节流器
 
 ```ts
 export const debouncer = (fn, time, interval = 200) => {

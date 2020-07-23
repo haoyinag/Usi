@@ -1,6 +1,6 @@
-### 算法
+# 算法
 
-#### 洗牌算法随机
+### 洗牌算法随机
 
 ```ts
 export const shuffle = arr => {
