@@ -1,5 +1,5 @@
 export default {
-  '/基础': [
+  '/basic': [
     {
       title: '基础',
       children: ['Basic/basic'],

@@ -1,17 +1,20 @@
 import { defineConfig } from 'dumi';
 
-import menus from './src/menu';
-// import routes from './src/router';
-
 export default defineConfig({
   // mode: 'site',
   title: 'Angsi UUI',
-  // favicon:
-  //   'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
-  // logo:
-  //   'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   outputPath: 'docs-dist',
-  menus,
+  menus: {
+    '/basic': [
+      {
+        title: '基础',
+      },
+      {
+        title: '基础',
+        children: ['Basic/basic'],
+      },
+    ],
+  },
   // routes,
   //  {
   //   '/blog': [
