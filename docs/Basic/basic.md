@@ -66,10 +66,22 @@ const numEnTextPattern = /^[0-9a-zA-Z]+$/;
 const numPotTextPattern = /^(\d|\.)+(\.\d+)?$/;
 ```
 
+#### 数字+2 位小数点
+
+```ts
+const numPot2TextPattern = /^(\d+)(.\d{0,2})?$/;
+```
+
 #### 非 0 数字
 
 ```ts
 const numPattern = /^\d{1,}$/;
+```
+
+#### 英文
+
+```ts
+const numEnPattern = /^[a-zA-Z]+$/;
 ```
 
 ### 值类型判断
