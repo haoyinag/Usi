@@ -22,7 +22,7 @@ export default {
   '/Hooks': [
     {
       title: 'Hooks',
-      children: ['Hooks/ReactHooks'],
+      children: ['Hooks/useClock'],
     },
     // {
     //   title: '文件处理',

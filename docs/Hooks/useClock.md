@@ -1,6 +1,4 @@
-# ReactHooks
-
-### useClock
+# useClock
 
 ```ts
 import { useEffect, useReducer } from 'react';
