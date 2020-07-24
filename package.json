@@ -2,7 +2,7 @@
   "private": true,
   "name": "AngsiUUI",
   "version": "1.0.0",
-  "homepage":"https://github.com/haoyinag/AngsiUUI",
+  "homepage":"https://haoyinag.github.com/AngsiUUI",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
