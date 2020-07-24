@@ -1,9 +1,10 @@
 import { defineConfig } from 'dumi';
 
-import menus from './src/menu';
+// import menus from './src/menu';
 // import routes from './src/router';
 
 export default defineConfig({
+  base: './',
   mode: 'site',
   title: 'UUI',
   // favicon:
