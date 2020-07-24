@@ -43,21 +43,5 @@ export default defineConfig({
       path: 'https://www.jianshu.com/u/c53f3aed0c06',
     },
   ],
-  // routes,
-  //  {
-  //   '/blog': [
-  //     {
-  //       title: '简介',
-  //     },
-  //     {
-  //       title: '辟邪剑谱',
-  //       children: ['blog/test'],
-  //     },
-  //     {
-  //       title: '降龙十八掌',
-  //       children: ['blog/test2'],
-  //     },
-  //   ],
-  // },
   // more config: https://d.umijs.org/config
 });
