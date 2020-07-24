@@ -4,8 +4,8 @@
 
 ```ts
 export const shuffle = arr => {
-  var result = [],
-    random;
+  let result = [];
+  let random;
   while (arr.length > 0) {
     random = Math.floor(Math.random() * arr.length);
     result.push(arr[random]);
