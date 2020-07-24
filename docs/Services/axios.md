@@ -1,5 +1,7 @@
 # Axios
 
+这个是别人写的，比较乱，凑合用
+
 ```ts
 import $axios from 'axios';
 import { message } from 'antd';
