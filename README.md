@@ -14,14 +14,14 @@ Start the dev server,
 $ npm start
 ```
 
-Build documentation,
+打包
 
 ```bash
 $ npm run docs:build
 ```
 
-Build library via `father-build`,
+部署到 Github 上
 
 ```bash
-$ npm run build
+$ npm run docs:deploy
 ```
