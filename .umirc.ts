@@ -4,7 +4,9 @@ import { defineConfig } from 'dumi';
 // import routes from './src/router';
 
 export default defineConfig({
-  base: './',
+  base: '/AngsiUUI',
+  publicPath: '/AngsiUUI/',
+  exportStatic: {}, // 将所有路由输出为 HTML 目录结构，以免刷新页面时 404
   mode: 'site',
   title: 'UUI',
   // favicon:
