@@ -23,9 +23,11 @@ export const sort = (arr, type = 1) => {
 
 ```ts
 export const unique = arr => {
+  // ES6 去重
   if (Array.hasOwnProperty('from')) {
     return Array.from(new Set(arr));
   } else {
+    // ES5 去重
     var n = {},
       r = [];
     for (var i = 0; i < arr.length; i++) {
@@ -57,6 +59,11 @@ export const intersect = (a, b) => {
   return this.map(a, function(o) {
     return _this.contains(b, o) ? o : null;
   });
+};
+
+// Es6
+export const intersect = (a, b) => {
+  return new Set(a).filter(item => b.includes(item));
 };
 ```
 
@@ -90,6 +97,7 @@ export const formArray = ary => {
 
 ```ts
 export const sum = arr => {
+  // reduce：遍历数组，每次都把上一次返回的结果参与到下一次的计算中，直到cur为最后一个元素为止
   return arr.reduce((pre, cur) => {
     return pre + cur;
   });
