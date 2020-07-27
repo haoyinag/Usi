@@ -36,11 +36,12 @@ export default defineConfig({
     },
     {
       title: '小程序',
+      path: '/miniapp',
       // path: '/miniapp/mini',
-      children: [
-        { title: '第一项', path: 'https://d.umijs.org' },
-        { title: '第二项', path: '/miniapp/mini' },
-      ],
+      // children: [
+      //   { title: '原生小程序', path: '/miniapp/mini' },
+      //   { title: 'Taro 多端', path: '/miniapp/taro' },
+      // ],
     },
     {
       title: 'GitHub',
