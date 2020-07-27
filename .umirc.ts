@@ -35,6 +35,14 @@ export default defineConfig({
       path: '/components',
     },
     {
+      title: '小程序',
+      // path: '/miniapp/mini',
+      children: [
+        { title: '第一项', path: 'https://d.umijs.org' },
+        { title: '第二项', path: '/miniapp/mini' },
+      ],
+    },
+    {
       title: 'GitHub',
       path: 'https://github.com/haoyinag/AngsiUUI',
     },
