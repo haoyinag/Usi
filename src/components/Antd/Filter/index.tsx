@@ -21,7 +21,7 @@ import { setKeystoLocaleLowerCase } from '../../../utils';
 const { Option } = Select;
 const { TreeNode } = TreeSelect;
 
-interface ParamsItemType {
+export interface ParamsItemType {
   tagName: string;
   key: string;
   label: string;
