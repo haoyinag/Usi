@@ -21,8 +21,17 @@ import { setKeystoLocaleLowerCase } from '../../../utils';
 const { Option } = Select;
 const { TreeNode } = TreeSelect;
 
+interface ParamsItemType {
+  tagName: string;
+  key: string;
+  label: string;
+  selectList?: any[];
+  render?: Function;
+  [key: string]: any;
+}
+
 interface FilterProps {
-  filterParams: any[];
+  filterParams: ParamsItemType[];
   autoSearch?: boolean;
   onSearch?: Function;
   onReset?: Function;
@@ -135,7 +144,7 @@ export default ({
       case 'cascader':
         return <Cascader {...item} />;
       default:
-        return '';
+        return <Input allowClear {...item} />;
     }
   };
 
