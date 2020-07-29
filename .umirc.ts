@@ -13,9 +13,17 @@ export default defineConfig({
   //   'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   // logo:
   //   'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
-  outputPath: 'docs-dist',
+  outputPath: 'dist',
 
   // menus,
+  // hero: {
+  //   title: 'Hooks',
+  //   desc: '12321313',
+  //   actions: {
+  //     text: 'Getting Started',
+  //     link: '/index',
+  //   },
+  // },
   navs: [
     // null, // null 值代表保留约定式生成的导航，只做增量配置
     {
