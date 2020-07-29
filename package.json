@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "AngsiUUI",
+  "name": "AngsiUsi",
   "version": "1.0.0",
-  "homepage": "https://haoyinag.github.io/AngsiUUI",
+  "homepage": "https://haoyinag.github.io/AngsiUsi",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",

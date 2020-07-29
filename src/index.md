@@ -3,7 +3,7 @@
 #  * background: url(https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*kJM2Q6uPXCAAAAAAAAAAAABkARQnAQ)
 #  */
 hero:
-  title: UUI
+  title: Usi
   desc: utils 库以及 UI 组件文档 v0.0.1
   actions:
     - text: 开始
