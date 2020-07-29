@@ -23,6 +23,6 @@ features:
     desc: 基于`Antd`组件二次封装，提高生产力
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/d1ee0c6f-5aed-4a45-a507-339a4bfe076c/k7bjsocq_w144_h144.png
     title: 小程序
-    desc: 小程序API已经组件的封装，区分原生和Taro环境
-footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [haoyinag](https://github.com/haoyinag)
+    desc: 小程序API以及组件的封装，区分原生和Taro环境
+footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [haoyinag](https://github.com/haoyinag/Usi)
 ---
