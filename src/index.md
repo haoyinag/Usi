@@ -4,7 +4,7 @@
 #  */
 hero:
   title: Usi
-  desc: utils 库以及 UI 组件文档 v0.0.1
+  desc: utils 库以及 UI 组件文档 v0.0.1 <span style='color:red'>·丨·</span> 名字由来是`Utils+UI`的简写
   actions:
     - text: 开始
       link: /utils/algorithm
