@@ -12,6 +12,6 @@
 
 ## API
 
-| Filter                                                         |                              TableProps                               |
-| -------------------------------------------------------------- | :-------------------------------------------------------------------: |
-| [Filter](http://icodemini.com/AngsiUUI/components/antd/filter) | [TableProps](http://icodemini.com/AngsiUUI/components/antd/table-pro) |
+| Filter                            |                 TableProps                 |
+| --------------------------------- | :----------------------------------------: |
+| [Filter](/components/antd/filter) | [TableProps](/components/antd/table-props) |
