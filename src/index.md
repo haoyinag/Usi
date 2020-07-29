@@ -2,12 +2,15 @@
 # /**
 #  * background: url(https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*kJM2Q6uPXCAAAAAAAAAAAABkARQnAQ)
 #  */
+
+title: Usi - utils 库以及 UI 组件文档 #  页面标题
+order: 10
 hero:
   title: Usi
   desc: utils 库以及 UI 组件文档 v0.0.1 <br /> 名字由来是`Utils+UI`的简写
   actions:
     - text: 开始
-      link: /utils/algorithm
+      link: /components/antd
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: Hooks
