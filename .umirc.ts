@@ -59,19 +59,19 @@ let config: any = {
   //   'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   outputPath: 'dist',
   menus: {
-    "/performance'": [
+    '/performance': [
       {
-        title: '性能优化1',
+        title: '工程化',
         children: [
           // 菜单子项（可选）
+          'Performance/enginner-index.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
           'Performance/enginner-compress.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
           'Performance/enginner-image.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
-          'Performance/enginner-index.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
           'Performance/enginner-mini.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
         ],
       },
       {
-        title: '性能优化2',
+        title: '代码',
         children: [
           // 菜单子项（可选）
           'Performance/code-index.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
@@ -80,7 +80,7 @@ let config: any = {
         ],
       },
       {
-        title: '性能优化3',
+        title: '体验',
         children: [
           // 菜单子项（可选）
           'Performance/experience-index.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
