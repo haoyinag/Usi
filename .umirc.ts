@@ -75,12 +75,18 @@ let config: any = {
       path: '/miniapp',
     },
     {
-      title: 'GitHub',
-      path: 'https://github.com/haoyinag/AngsiUsi',
-    },
-    {
-      title: '简书',
-      path: 'https://www.jianshu.com/u/c53f3aed0c06',
+      title: 'Mine',
+      children: [
+        {
+          title: 'GitHub',
+          path: 'https://github.com/haoyinag/AngsiUsi',
+        },
+        {
+          title: '简书',
+          path: 'https://www.jianshu.com/u/c53f3aed0c06',
+        },
+      ],
+      // path: 'https://github.com/haoyinag/AngsiUsi',
     },
   ],
   // more config: https://d.umijs.org/config
