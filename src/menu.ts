@@ -14,10 +14,9 @@ export default {
       title: 'Antd',
       children: [
         // 菜单子项（可选）
-        // 'Components/Antd/index.md',
-        'Components/Antd/TablePro.md',
-        'Components/Antd/TableProps.md',
         'Components/Antd/Filter.md',
+        'Components/Antd/TableProps.md',
+        'Components/Antd/TablePro.md',
       ],
     },
   ],
