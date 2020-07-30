@@ -47,31 +47,16 @@ export default {
   // 性能优化
   '/performance': [
     {
-      title: '工程化',
-      children: [
-        'Performance/enginner-index.md', // 说明
-        'Performance/enginner-image.md', // 图片压缩
-        'Performance/enginner-compress.md', // 打包压缩
-        'Performance/enginner-mini.md', // 小程序
-      ],
+      title: '工程',
+      path: '/performance/code',
     },
     {
       title: '代码',
-      children: [
-        'Performance/code-index.md', // 说明
-        'Performance/code-utils.md', // utils
-        'Performance/code-components.md', // 组件
-      ],
+      path: '/performance/enginner',
     },
     {
       title: '体验',
-      children: [
-        // 菜单子项（可选）
-        'Performance/experience-index.md', // 说明
-        'Performance/experience-white.md', // 白屏
-        'Performance/experience-list.md', // 长列表
-        'Performance/experience-request.md', // 请求反馈
-      ],
+      path: '/performance/experience',
     },
   ],
 };
