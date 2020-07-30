@@ -1,10 +1,11 @@
 {
   "private": true,
   "name": "Usi",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "homepage": "https://haoyinag.github.io/Usi",
   "scripts": {
     "start": "dumi dev",
+    "analyze": "cross-env ANALYZE=1 dumi build",
     "docs:build": "dumi build",
     "docs:deploy": "gh-pages -d dist",
     "build": "father-build",
@@ -34,11 +35,13 @@
   "devDependencies": {
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.0.5",
+    "cross-env": "^7.0.2",
     "dumi": "^1.0.9",
     "father-build": "^1.17.2",
     "gh-pages": "^3.1.0",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
+    "webpack-bundle-analyzer": "^3.8.0",
     "yorkie": "^2.0.0"
   }
 }
