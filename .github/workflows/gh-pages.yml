@@ -18,7 +18,7 @@ jobs:
 
       # 部署
       - name: Deploy
-        uses: haoyinag/gh-pages
+        uses: haoyinag 
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist

@@ -29,11 +29,11 @@ jobs:
           CI: true
       # 设置阿里云的 id/secret，存储到 github 的 secrets 中
       - name: setup aliyun
-        uses: chenhaoyin/icodemini@master
+        uses: chenhaoyin/icodemini
         with:
           endpoint: 'http://icodemini.com'
           # 使用我们之前配置在secrets里面的accesskeys来配置ossutil
           access-key-id: ${{ secrets.ALIYUN_ACCESSKEY_ID }}
           access-key-secret: ${{ secrets.ALIYUN_ACCESSKEY_SECRET }}
-      - name: cp files to aliyun
-        run: ossutil cp -rf ./dist oss://shanyue-blog/
+      # - name: cp files to aliyun
+      #   run: ossutil cp -rf ./dist oss://shanyue-blog/
