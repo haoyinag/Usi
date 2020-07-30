@@ -20,13 +20,6 @@ export default {
         'Components/Antd/Filter.md',
       ],
     },
-    {
-      title: '小程序',
-      children: [
-        // 菜单子项（可选）
-        'Components/Mini/index.md',
-      ],
-    },
   ],
   // 小程序
   '/miniapp': [
