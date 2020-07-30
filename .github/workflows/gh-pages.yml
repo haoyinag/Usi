@@ -18,7 +18,7 @@ jobs:
 
       # 部署
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: haoyinag/gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist

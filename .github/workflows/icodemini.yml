@@ -27,9 +27,9 @@ jobs:
           npm run docs:build
         env:
           CI: true
-      # 设置阿里云OSS的 id/secret，存储到 github 的 secrets 中
-      - name: setup aliyun oss
-        uses: manyuanrong/setup-ossutil@master
+      # 设置阿里云的 id/secret，存储到 github 的 secrets 中
+      - name: setup aliyun
+        uses: chenhaoyin/icodemini@master
         with:
           endpoint: 'http://icodemini.com'
           # 使用我们之前配置在secrets里面的accesskeys来配置ossutil
