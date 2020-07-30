@@ -1,19 +1,39 @@
-name: GitHub Actions Build and Deploy icodemini
-on:
-  push:
-    branches:
-      - master
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@master
+name: deploy to aliyun icodemini
 
-    - name: Build and Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: ./dist
-        BUILD_SCRIPT: npm install && npm run docs:build
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 切代码到 runner
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      # 下载 git submodule
+      - uses: srt32/git-actions@v0.0.3
+        with:
+          args: git submodule update --init --recursive
+      # 使用 node:12
+      - name: use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      # npm install
+      - name: npm install and docs:build
+        run: |
+          npm install
+          npm run docs:build
+        env:
+          CI: true
+      # 设置阿里云OSS的 id/secret，存储到 github 的 secrets 中
+      - name: setup aliyun oss
+        uses: manyuanrong/setup-ossutil@master
+        with:
+          endpoint: 'http://icodemini.com'
+          # 使用我们之前配置在secrets里面的accesskeys来配置ossutil
+          access-key-id: ${{ secrets.ALIYUN_ACCESSKEY_ID }}
+          access-key-secret: ${{ secrets.ALIYUN_ACCESSKEY_SECRET }}
+      - name: cp files to aliyun
+        run: ossutil cp -rf ./dist oss://shanyue-blog/
