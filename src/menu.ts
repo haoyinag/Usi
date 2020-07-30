@@ -1,4 +1,10 @@
 export default {
+  // 规范
+  '/standard': [
+    {
+      title: '简述',
+    },
+  ],
   // 组件
   '/components': [
     {

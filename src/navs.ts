@@ -25,6 +25,10 @@ export default [
     path: '/performance',
   },
   {
+    title: '规范',
+    path: '/standard',
+  },
+  {
     title: 'Mine',
     children: [
       {
