@@ -47,12 +47,12 @@ export default {
   // 性能优化
   '/performance': [
     {
-      title: '代码',
-      path: '/performance/code',
-    },
-    {
       title: '工程',
       path: '/performance/enginner',
+    },
+    {
+      title: '代码',
+      path: '/performance/code',
     },
     {
       title: '体验',
