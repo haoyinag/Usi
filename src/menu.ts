@@ -1,4 +1,43 @@
 export default {
+  // 工具函数
+  '/utils': [
+    {
+      title: '正则 Pattern',
+      path: '/utils/pattern',
+    },
+    {
+      title: '值类型',
+      path: '/utils/type',
+    },
+    {
+      title: '数字操作',
+      path: '/utils/numberoperate',
+    },
+    {
+      title: '字符串操作',
+      path: '/utils/stringoperate',
+    },
+    {
+      title: '复杂类型操作',
+      path: '/utils/objectoperate',
+    },
+    {
+      title: '文件操作',
+      path: '/utils/files',
+    },
+    {
+      title: '页面操作',
+      path: '/utils/domoperate',
+    },
+    {
+      title: '端丨判断',
+      path: '/utils/navigator',
+    },
+    {
+      title: '工具函数',
+      path: '/utils/tools',
+    },
+  ],
   // 规范
   '/standard': [
     {
