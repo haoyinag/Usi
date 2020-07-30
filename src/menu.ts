@@ -1,35 +1,51 @@
-// export default {
-//   '/Utils': [
-//     {
-//       title: 'Utils',
-//       children: [
-//         'Utils/type',
-//         'Utils/pattern',
-//         'Utils/navigator',
-//         'Utils/numberoperate',
-//         'Utils/stringoperate',
-//         'Utils/objectoperate',
-//         'Utils/domoperate',
-//         'Utils/files',
-//         'Utils/algorithm',
-//       ],
-//     },
-//   ],
-//   '/Hooks': [
-//     {
-//       title: 'Hooks',
-//       children: ['Hooks/useClock', 'Hooks/useChecked', 'Hooks/useDoubleClick'],
-//     },
-//   ],
-//   '/Services': [
-//     {
-//       title: 'Services',
-//       children: ['Services/umirequest', 'Services/axios', 'Services/flyio'],
-//     },
-//   ],
-// };
-
 export default {
+  // 组件
+  '/components': [
+    {
+      title: 'Antd',
+      children: [
+        // 菜单子项（可选）
+        'Components/Antd/index.md',
+        'Components/Antd/TablePro.md',
+        'Components/Antd/TableProps.md',
+        'Components/Antd/Filter.md',
+      ],
+    },
+    {
+      title: '小程序',
+      children: [
+        // 菜单子项（可选）
+        'Components/Mini/index.md',
+      ],
+    },
+  ],
+  // 小程序
+  '/miniapp': [
+    {
+      title: '原生',
+      children: [
+        // 菜单子项（可选）
+        'Miniapp/Mini/components.md',
+        'Miniapp/Mini/utils.md',
+      ],
+    },
+    {
+      title: 'Taro',
+      children: [
+        // 菜单子项（可选）
+        'Miniapp/Taro/components.md',
+        'Miniapp/Taro/utils.md',
+      ],
+    },
+    {
+      title: 'UniApp',
+      children: [
+        // 菜单子项（可选）
+        'Miniapp/Uniapp/index.md',
+      ],
+    },
+  ],
+  // 性能优化
   '/performance': [
     {
       title: '工程化',
