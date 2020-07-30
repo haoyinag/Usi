@@ -1,17 +1,22 @@
 name: github pages
 
 on:
-  push:
-    branches:
-      - master # default branch
+  push: # push 事件
+    branches: # 监听的分支
+      - master # default branch 只有msater分支发生push事件时，才会触发workflow
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
-    steps:
-      - uses: actions/checkout@v2
+    runs-on: ubuntu-18.04 # 指定运行所需要的虚拟机环境。它是必填字段
+    steps: # 步骤
+      # 获取源码
+      - uses: actions/checkout@v2 # 指的是这一步骤需要先调用哪个Action，actions/checkout@v2是官方用来拉取仓库分支的 Action
+
+      # 下载，打包
       - run: npm install
       - run: npm run docs:build
+
+      # 部署
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
