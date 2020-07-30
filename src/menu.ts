@@ -14,9 +14,9 @@ export default {
       title: 'Antd',
       children: [
         // 菜单子项（可选）
-        'Components/Antd/Filter.md',
-        'Components/Antd/TableProps.md',
-        'Components/Antd/TablePro.md',
+        'Components/Antd/Filter.md', // Filter 筛选组件
+        'Components/Antd/TableProps.md', // table 组件
+        'Components/Antd/TablePro.md', // Filter+table 整合
       ],
     },
   ],
@@ -26,23 +26,21 @@ export default {
       title: '原生',
       children: [
         // 菜单子项（可选）
-        'Miniapp/Mini/components.md',
-        'Miniapp/Mini/utils.md',
+        'Miniapp/Mini/components.md', // 组件
+        'Miniapp/Mini/utils.md', // utils
       ],
     },
     {
       title: 'Taro',
       children: [
-        // 菜单子项（可选）
-        'Miniapp/Taro/components.md',
-        'Miniapp/Taro/utils.md',
+        'Miniapp/Taro/components.md', // 组件
+        'Miniapp/Taro/utils.md', // utils
       ],
     },
     {
       title: 'UniApp',
       children: [
-        // 菜单子项（可选）
-        'Miniapp/Uniapp/index.md',
+        'Miniapp/Uniapp/index.md', // 说明
       ],
     },
   ],
@@ -51,30 +49,28 @@ export default {
     {
       title: '工程化',
       children: [
-        // 菜单子项（可选）
-        'Performance/enginner-index.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
-        'Performance/enginner-compress.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
-        'Performance/enginner-image.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
-        'Performance/enginner-mini.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
+        'Performance/enginner-index.md', // 说明
+        'Performance/enginner-image.md', // 图片压缩
+        'Performance/enginner-compress.md', // 打包压缩
+        'Performance/enginner-mini.md', // 小程序
       ],
     },
     {
       title: '代码',
       children: [
-        // 菜单子项（可选）
-        'Performance/code-index.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
-        'Performance/code-components.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
-        'Performance/code-utils.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
+        'Performance/code-index.md', // 说明
+        'Performance/code-utils.md', // utils
+        'Performance/code-components.md', // 组件
       ],
     },
     {
       title: '体验',
       children: [
         // 菜单子项（可选）
-        'Performance/experience-index.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
-        'Performance/experience-list.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
-        'Performance/experience-request.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
-        'Performance/experience-white.md', // 对应的 Markdown 文件，路径是相对于 resolve.includes 目录识别的
+        'Performance/experience-index.md', // 说明
+        'Performance/experience-white.md', // 白屏
+        'Performance/experience-list.md', // 长列表
+        'Performance/experience-request.md', // 请求反馈
       ],
     },
   ],
